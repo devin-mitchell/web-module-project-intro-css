@@ -39,4 +39,35 @@ blockquote:before, blockquote:after, q:before, q:after {
 	}
 blockquote, q {
 	quotes: "" "";
-	}
+    }
+
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+    border: 1px solid gray;
+    font-family:Roboto Mono, monospace;
+}
+    
+nav a {
+    background-color:#FF764e;
+}
+
+nav a:nth-child(2) {
+    background-color: #5ED3EB;
+}
+
+nav a:last-child {
+    background-color: #ffcd69;
+}
+
+.container h1 {
+    font-family:Chelsea Market;
+}
+
+.text {
+    background-color:#DDB9A3
+}
+
+footer {
+    background-color:#F9E7DC
+}
