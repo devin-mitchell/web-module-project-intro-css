@@ -63,17 +63,23 @@ a {
 
 
 /*header*/
+header {
+    width:100%;
+}
 
 nav {
     padding:5%;
     text-align:center; 
+    width:100%;
 }
 nav a {
-    font-size: 2rem;
-    padding: 2%;
-    border-radius:20px;
-    margin: 0% 5%;
+    display:inline-block;
+    font-size: 1.5rem;
+    padding: 1% 2%;
+    border-radius:15px;
+    margin: 0% 8%;
     color: white; 
+    width: 14%;
      
 } 
 
