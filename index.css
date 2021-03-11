@@ -95,6 +95,7 @@ nav .yellow {
 .image {
     display: inline-block;
     width: 25%;
+    margin:0% 8% 4% 3%;
     
 }
 
@@ -107,15 +108,35 @@ nav .yellow {
 
 .main {
     display: inline-block;
-    margin: 5% 10% 
+    width: 60%;
+    vertical-align: top;
+    padding: 5% 0% 0% 0%;
 }
 
 
 h1 {
     font-family: 'Chelsea Market', cursive;
-    font-size: 4rem;
+    font-size: 7rem;
     display: inline-block;
+    width: 100%;
+    
+    
 }
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 5% 15% 5% 5%;
+}
+
+.main p {
+    font-size: 2rem;
+    text-align: center;
+    padding: 0% 10% 0% 20%;
+    margin-left: 4%;
+    width: 75%;
+}
+
 
 /*section2*/
 .text {
@@ -134,10 +155,29 @@ h1 {
 
 /*section3*/
 .box {
+    text-align: center;
+    margin-top: 3%;
+}
+
+.box img {
+    width: 12%;
+    margin-bottom:2%;
 
 }
 
+.box p {
+    font-size: 1.4rem;  
+    text-align:center;
+    width: 20%;
+    margin-left:40%;
+}
 /*section4*/
+#section4 {
+    
+    margin-top:5%;
+    background-image:url(src="assets/footer_img.jpg");
+    width: 100%;
+
 
 /*footer*/
 footer {
